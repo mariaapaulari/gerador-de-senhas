@@ -23,3 +23,8 @@ function aumentaTamanho(){
 }
 
 console.log(botoes)
+
+const campoSenha = document.querySelector('#campo-senha');
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+
+campoSenha.value = letrasMaiusculas;
