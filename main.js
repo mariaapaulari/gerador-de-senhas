@@ -21,6 +21,7 @@ function aumentaTamanho(){
       tamanhoSenha++;
     }
     numeroSenha.textContent = tamanhoSenha;
+    geraSenha();
 }
 
 console.log(botoes)
